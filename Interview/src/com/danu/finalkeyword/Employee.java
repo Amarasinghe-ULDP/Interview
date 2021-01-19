@@ -19,7 +19,7 @@ public class Employee {
 	}
 	
 	public static void main(String[] args) {
-		
+		//when we creating new object, Constructor will call automatically
 		Employee employee = new Employee();
 	}
 
