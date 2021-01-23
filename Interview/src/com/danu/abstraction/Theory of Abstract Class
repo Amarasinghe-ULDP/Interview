@@ -1,0 +1,16 @@
+//example for abstract class
+abstract class A{}
+
+//example for abstract method
+abstract void eat();
+
+//Following class gives a compile time error, because this class should be a abstract class 
+//(class should use abstract keyword)
+class car{
+	abstract void drive();
+}
+
+//example of abstract class that has an abstract method
+abstract class Car{
+	abstract void drive();
+}
